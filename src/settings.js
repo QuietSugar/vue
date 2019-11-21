@@ -1,6 +1,9 @@
+//  变量设置
 module.exports = {
-
-  title: 'Vue Admin Template',
+  /**
+   * @description 浏览器标签的后缀
+   */
+  title: 'sugar',
 
   /**
    * @type {boolean} true | false
