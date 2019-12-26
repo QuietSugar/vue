@@ -83,6 +83,18 @@ export const constantRoutes = [
   },
 
   {
+    path: '/command',
+    component: Layout,
+    children: [
+      {
+        path: 'example',
+        name: 'Example',
+        component: () => import('@/views/command/example'),
+        meta: { title: '命令管理', icon: 'table' }
+      }
+    ]
+  },
+    {
     path: '/form',
     component: Layout,
     children: [
